@@ -83,10 +83,6 @@ RenderDashboard.java
 ### 🔹 Add Employee Form  
 ![Add Form](https://github.com/user-attachments/assets/4fccb4f9-599c-4bf8-a7df-ebbe220d1960)
 
-
-
-*(Optional: Add screenshots of the dashboard and add-employee page here)*
-
 ---
 
 ## Reflection
