@@ -68,10 +68,20 @@ RenderDashboard.java
 
 ---
 
-## Screenshots
-<img width="1920" height="1392" alt="dashboard" src="https://github.com/user-attachments/assets/5ae320e6-ecb9-40e4-8155-fdc43db98d6c" />
-<img width="1920" height="880" alt="filter" src="https://github.com/user-attachments/assets/d0edfaa3-753d-462e-9308-c021c67cee5a" />
-<img width="1920" height="1062" alt="add-form" src="https://github.com/user-attachments/assets/4fccb4f9-599c-4bf8-a7df-ebbe220d1960" />
+## 📸 Screenshots
+
+### 🔹 Dashboard View  
+![Dashboard](https://github.com/user-attachments/assets/5ae320e6-ecb9-40e4-8155-fdc43db98d6c)
+
+---
+
+### 🔹 Filter Employees  
+![Filter](https://github.com/user-attachments/assets/d0edfaa3-753d-462e-9308-c021c67cee5a)
+
+---
+
+### 🔹 Add Employee Form  
+![Add Form](https://github.com/user-attachments/assets/4fccb4f9-599c-4bf8-a7df-ebbe220d1960)
 
 
 
