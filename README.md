@@ -68,9 +68,20 @@ RenderDashboard.java
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-*(Optional: Add screenshots of the dashboard and add-employee page here)*
+### 🔹 Dashboard View  
+![Dashboard](https://github.com/user-attachments/assets/5ae320e6-ecb9-40e4-8155-fdc43db98d6c)
+
+---
+
+### 🔹 Filter Employees  
+![Filter](https://github.com/user-attachments/assets/d0edfaa3-753d-462e-9308-c021c67cee5a)
+
+---
+
+### 🔹 Add Employee Form  
+![Add Form](https://github.com/user-attachments/assets/4fccb4f9-599c-4bf8-a7df-ebbe220d1960)
 
 ---
 
