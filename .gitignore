@@ -2,6 +2,5 @@
 *.class
 *.jar
 
-
 # VS Code settings
 .vscode/
