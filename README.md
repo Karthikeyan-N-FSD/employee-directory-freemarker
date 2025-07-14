@@ -9,8 +9,12 @@ This Employee Directory is a simple web application built using Freemarker templ
 ## Project Structure
 
 ```
-employee-directory/
+employee-directory-freemarker/
+├── RenderDashboard.java
 └── src/
+    ├── index.html
+    ├── dashboard.html
+    ├── add-employee.html
     ├── css/
     │   └── styles.css
     ├── js/
@@ -19,14 +23,10 @@ employee-directory/
     │   ├── filters.js
     │   ├── form.js
     │   └── pagination.js
-    ├── output/
-    │   ├── dashboard.html
-    │   └── add-employee.html
-    ├── templates/
-    │   ├── dashboard.ftl
-    │   └── add-employee.ftl
-    └── index.html
-RenderDashboard.java
+    └── templates/
+        ├── dashboard.ftl
+        └── add-employee.ftl
+
 ```
 
 ---
