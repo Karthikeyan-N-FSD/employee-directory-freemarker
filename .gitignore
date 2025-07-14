@@ -2,8 +2,6 @@
 *.class
 *.jar
 
-# Freemarker output
-src/output/
 
 # VS Code settings
 .vscode/
