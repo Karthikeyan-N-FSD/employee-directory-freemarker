@@ -80,7 +80,7 @@ body {
 .controls-group {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
   flex-wrap: wrap;
 }
 
@@ -160,8 +160,13 @@ body {
 }
 
 @keyframes slideInRight {
-  from { transform: translateX(100%); }
-  to { transform: translateX(0); }
+  from {
+    transform: translateX(100%);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 .filter-header {
@@ -329,21 +334,40 @@ body {
 /* Responsive for mobile */
 @media (max-width: 600px) {
   .main-header .container {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center !important;
+    gap: 0.5rem;
   }
 
   .main-header h1 {
-    width: 100%;
+    flex: 0 0 100%;
     text-align: center;
+    margin-bottom: 0.5rem;
   }
 
-  .main-header .container > .header-controls {
+  .search-input,
+  .header-btn {
+    flex: 0 0 auto;
+    margin: 0;
+  }
+
+  .controls-bar .container {
+    flex-wrap: wrap;
+    
+    justify-content: flex-start;
+  }
+
+  /* 1st “row”: controls-group spans 100% and its children are spaced evenly */
+  .controls-group {
+    flex: 0 0 100%;
     display: flex;
-    justify-content: space-between;
-    gap: 0.5rem;
-    width: 100%;
+    
+  }
+
+  /* 2nd “row”: add‑employee button spans 100% and is right‑aligned */
+  .add-employee-btn {
+    flex: 0 0 auto;
+    margin-left: auto;
   }
 
   .form-container {
