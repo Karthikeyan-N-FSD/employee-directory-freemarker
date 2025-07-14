@@ -54,7 +54,7 @@ employee-directory-freemarker/
      ```
      java -cp .;freemarker-2.3.32.jar RenderDashboard
      ```
-   - This will generate `dashboard.html` and `add-employee.html` in the `src/output` folder.
+   - This will generate `dashboard.html` and `add-employee.html` in the `src` folder.
 
 3. **Serve the `src` folder**
    - Use VS Code Live Server:
