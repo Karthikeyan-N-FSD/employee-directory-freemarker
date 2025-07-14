@@ -7,15 +7,8 @@ public class RenderDashboard {
         // Get current working directory
         String baseDir = System.getProperty("user.dir");
         String templateDir = baseDir + File.separator + "src" + File.separator + "templates";
-        String outputDir = baseDir + File.separator + "src" + File.separator + "output";
-        String dashboardHtml = outputDir + File.separator + "dashboard.html";
-        String addEmployeeHtml = outputDir + File.separator + "add-employee.html";
-
-        // Ensure output directory exists
-        File outDir = new File(outputDir);
-        if (!outDir.exists()) {
-            outDir.mkdirs();
-        }
+        String dashboardHtml = baseDir + File.separator + "src" + File.separator + "dashboard.html";
+        String addEmployeeHtml = baseDir + File.separator + "src" + File.separator + "add-employee.html";
 
         // Configure Freemarker
         Configuration cfg = new Configuration(Configuration.VERSION_2_3_32);
@@ -36,5 +29,7 @@ public class RenderDashboard {
         Writer addEmployeeOut = new FileWriter(addEmployeeHtml);
         addEmployeeTemplate.process(dataModel, addEmployeeOut);
         addEmployeeOut.close();
+
+        System.out.println("✅ dashboard.html and add-employee.html have been generated in src/");
     }
 }

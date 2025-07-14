@@ -22,7 +22,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Employee Directory</title>
-  <link rel="stylesheet" href="../css/styles.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
 </head>
 
 <body>
@@ -97,7 +97,7 @@
     &copy; 2025 Employee Directory App. All rights reserved.
   </footer>
 
-  <script type="module" src="../js/dashboard.js"></script>
+  <script type="module" src="./js/dashboard.js"></script>
   
   
 
