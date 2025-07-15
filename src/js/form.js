@@ -18,8 +18,14 @@ function initForm() {
   if (id) {
     document.getElementById('formTitle').textContent = 'Edit Employee';
     const emp = employees.find(e => e.id == id);
-    ['empId','firstName','lastName','email','department','role']
-      .forEach(f => document.getElementById(f).value = emp[f]);
+    if (emp) {
+      document.getElementById('empId').value = emp.id;
+      document.getElementById('firstName').value = emp.firstName;
+      document.getElementById('lastName').value = emp.lastName;
+      document.getElementById('email').value = emp.email;
+      document.getElementById('department').value = emp.department;
+      document.getElementById('role').value = emp.role;
+    }
   }
 }
 
